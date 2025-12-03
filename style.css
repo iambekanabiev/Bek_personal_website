@@ -1,0 +1,7 @@
+
+body { font-family: 'Segoe UI', sans-serif; background-color: #f8f9fa; }
+.profile-img { width: 250px; height: 250px; object-fit: cover; border-radius: 50%; }
+.section-title { font-weight: 700; margin-bottom: 25px; }
+.card-custom { border-radius: 15px; transition: .3s; }
+.card-custom:hover { transform: translateY(-6px); }
+footer { background:#222;color:#fff;padding:20px;text-align:center;margin-top:50px; }
