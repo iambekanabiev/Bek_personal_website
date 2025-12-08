@@ -96,3 +96,7 @@ footer {
   object-fit: cover;   /* Makes it look perfect while resizing */
   border-radius: 12px;
 }
+.navbar {
+  z-index: 2000;
+  position: relative;
+}
