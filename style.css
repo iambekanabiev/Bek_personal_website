@@ -81,3 +81,18 @@ footer {
   h1 { font-size: 1.6rem; }
   .section-title { font-size: 1.3rem; }
 }
+.hobby-card {
+  background: white;
+  padding: 25px;
+  border-radius: 15px;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+  transition: .3s;
+  height: 100%;        /* Ensures equal height in grid */
+}
+
+.hobby-photo {
+  max-height: 250px;   /* Controls how tall the swan picture can be */
+  width: 100%;
+  object-fit: cover;   /* Makes it look perfect while resizing */
+  border-radius: 12px;
+}
